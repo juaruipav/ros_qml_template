@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+    <!-- Arguments for dnmosaicing1 -->
+    <arg name="fake_arg" default="1" />
+
+    <!-- Mosaic Builder node  -->
+    <node pkg="ros_qml_template" type="ros_qml_template" name="ros_qml_template" output="screen" >
+        <param name="fake_arg1" value="$(arg fake_arg)" />        
+    </node>
+
+</launch>

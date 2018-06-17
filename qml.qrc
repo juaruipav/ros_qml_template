@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="main.qml">main.qml</file>
+        <file alias="MyRectangle.qml">resources/MyRectangle.qml</file>
+        <file>resources/qmldir</file>
+    </qresource>
+
+</RCC>
